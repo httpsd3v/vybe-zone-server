@@ -13,7 +13,7 @@ const io = socketio(server, {
     }
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 // Store active users
 let activeUsers = [];
@@ -55,3 +55,4 @@ io.on('connection', (socket) => {
 server.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
