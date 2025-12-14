@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // ⚠️ REPLACE THIS URL WITH YOUR DEPLOYED SERVER'S ADDRESS
-    const socket = io('http://localhost:3000'); 
+    const socket = io('https://vybe-zone-server.onrender.com'); 
     
     const messagesContainer = document.getElementById('messages-container');
     const messageInput = document.getElementById('message-input');
@@ -102,3 +102,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
